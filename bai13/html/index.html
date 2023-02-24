@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTMLS input elements</title>
+    <style>
+        form{
+            margin: auto;
+            margin-top: 100px;
+            width: 240px;
+            height: 500px;
+            box-shadow: 2px 2px 5px 6px #ccc;
+        }
+
+        form p{
+            padding: 5px 10px;
+        }
+    </style>
 </head>
 <body>
-    
+    <form action="" method="post">
+        <p>
+            Name: </Br>
+            <input type="text" name="txtName" id="" size="20" maxlength="20" autocomplete="on" required="">
+        </p>
+
+        <p>
+            Telephone Number: </Br>
+            <input type="tel" name="txtNumberTelephone" id="" size="20" maxlength="20">
+        </p>
+        
+        <p>
+            Email: </Br>
+            <input type="email" name="txtEmail" id="" size="20" maxlength="20">
+        </p>
+
+        <p>
+            Favorite Color: </Br>
+            <input type="color" name="txtColor" id="" size="20" maxlength="20">
+        </p>
+       
+
+        <p>
+            Date of Birth: </Br>
+            <input type="date" name="txtDate" id="" autocomplete="on off">
+        </p>
+       
+        <p><input type="submit" value="Submit"></p>
+
+        <!-- <button>
+            Submit
+        </button> -->
+    </form>
 </body>
 </html>
